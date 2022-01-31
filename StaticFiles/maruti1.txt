@@ -1,0 +1,3 @@
+Car Name:maruti1
+Model:12
+Rate:1212
