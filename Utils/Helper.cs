@@ -1,5 +1,6 @@
 ﻿using CarRentalSystem.DTOS;
 using CarRentalSystem.Models;
+using CarRentalSystem.Utils;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace CarRentalSystem.util
 {
-    public class Helper
+    public class Helper: IHelpercs
     {
         //public Employe ReadDetails()
         //{
@@ -64,6 +65,11 @@ namespace CarRentalSystem.util
 
                 throw;
             }
+        }
+
+        public void SaveCarDetailsToFile(string fileName)
+        {
+            throw new NotImplementedException();
         }
     }
 }

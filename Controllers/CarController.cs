@@ -7,6 +7,11 @@ namespace CarRentalSystem.Controllers
 {
     public class CarController : Controller
     {
+        CarRentalSystem.Utils.IHelpercs helper= new Helper();
+        public CarController()
+        {
+          
+        }
         public IActionResult Index()
         {
             return View();
